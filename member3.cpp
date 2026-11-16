@@ -1,5 +1,9 @@
 // --- MEMBER 3 SECTION: VOTING LOGIC & RENDERING ---
-        switch (current_screen)
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>   
+#include <raylib.h>
+switch (current_screen)
         {
             case screen_cast_vote:
                 {
